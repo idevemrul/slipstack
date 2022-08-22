@@ -1,0 +1,169 @@
+/* ===========START EMRUL MAIN CSS================ */
+
+
+/* ==================START ABOUT PAGE===================== */
+
+body {
+    font-family: var(--slipstream--font-Poppins);
+    box-sizing: border-box;
+    line-height: 1.4em;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.base_color {
+    color: #6153fb;
+}
+
+#about {
+    position: relative;
+}
+
+#bg-img-left {
+    position: absolute;
+    top: 25%;
+    left: 0px;
+}
+
+#bg-img-right {
+    position: absolute;
+    bottom: 25%;
+    right: 20px;
+    opacity: 1;
+}
+
+#headTitle {
+    margin-top: 10vh;
+}
+
+#headTitle h4 {
+    color: #afafaf;
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#headTitle h2 {
+    margin: 1px 0 0;
+    color: #000000;
+    /* font-size: 4.6875rem; */
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+#headTitle p {
+    font-weight: 600;
+    padding: 0;
+}
+
+.about-note {
+    position: relative;
+    margin-top: 15px;
+}
+
+.about-note img {
+    position: absolute;
+    left: -15px;
+    top: 10px;
+}
+
+.book-demo {
+    margin-top: 20px;
+    padding: 23px 26px;
+    /* position: relative; */
+    width: 206px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #6153fb;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#video {
+    position: relative;
+}
+
+#bg-abstruct2 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+#bg-abstruct {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.video {
+    position: relative;
+    margin: 50px 50px;
+    height: 620px;
+    box-shadow: 0 0 150px #dfdfdf;
+    border-radius: 30px;
+    background: #fff;
+    /* z-index: 9 !important; */
+}
+
+.video #icon-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#partner {
+    margin-top: 10vh;
+}
+
+#partner .partner-text {
+    padding-top: 140px;
+    position: relative;
+}
+
+.partner-text #y-arrow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.partner-text h3 {
+    font-size: 2.8125rem;
+    font-weight: bold;
+}
+
+.partner-text h6 {
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.partner-list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.partner-list div div {
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.partner-list div div img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* ==================END ABOUT PAGE======================= */
+
+
+/* ===========END EMRUL MAIN CSS================== */
