@@ -375,6 +375,7 @@
     
     .love-add-text h2 {
         color: #1fb8ea;
+        margin-top: 3rem;
     }
     
     .love-add-text p {
@@ -382,6 +383,68 @@
         font-size: 1rem;
         font-style: italic;
         line-height: 28px;
+    }
+    
+    .love-item-container {
+        overflow-x: hidden;
+        margin: 2rem;
+    }
+    
+    .love-container .owl-carousel .owl-item {
+        padding: 3rem;
+    }
+    
+    .love-container .owl-carousel .owl-item img {
+        display: block;
+        width: 5rem;
+    }
+    
+    .love-magent {
+        position: relative;
+        margin-bottom: 3rem;
+    }
+    
+    .love-magent .love-magnet-img {
+        position: absolute;
+        top: 18%;
+        left: 25%;
+        height: 50px;
+    }
+    
+    .love-container .comments {
+        margin: 28px 0 0 4px;
+        font-style: italic;
+        line-height: 1.8;
+        font-size: .9rem;
+    }
+    
+    .team-icon {
+        margin-top: 2rem;
+    }
+    
+    .love-quote {
+        margin-top: 1rem;
+        font-size: .8rem;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .love-left-arrow-1,
+    .love-right-arrow-1,
+    .love-left-arrow-2,
+    .love-right-arrow-2,
+    .love-left-arrow-3,
+    .love-right-arrow-3,
+    .love-left-arrow-4,
+    .love-right-arrow-4 {
+        background: #f8f8fc;
+        padding: 1rem .9rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+    
+    .owl-item active {
+        width: 400px !important;
     }
     /* ==================END ABOUT PAGE======================= */
     /* ===========END EMRUL MAIN CSS================== */
